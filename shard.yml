@@ -1,0 +1,14 @@
+name: kiku
+version: 0.1.0
+
+authors:
+   - Spencer King <>
+
+description: |
+   A simple mastodon streaming client
+
+license: MIT
+
+dependencies:
+  mastodon:
+    github: decors/mastodon.cr
