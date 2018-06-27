@@ -12,3 +12,5 @@ license: MIT
 dependencies:
   mastodon:
     github: decors/mastodon.cr
+  colors:
+    github: spencerking/colors
