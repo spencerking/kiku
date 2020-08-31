@@ -1,0 +1,9 @@
+---
+version: 1.0
+shards:
+  mastodon:
+    git: https://github.com/spencerking/mastodon.cr.git
+    version: 0.1.1+git.commit.b9f6aeba3aebf98f004f37a075c5ff23b303b9de
+  colors:
+    git: https://github.com/spencerking/colors.git
+    version: 0.1.1+git.commit.a3e4fed55e32281915d4b3886c83518c9bd2c3ac

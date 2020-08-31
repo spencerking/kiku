@@ -8,7 +8,7 @@ access_token: String = ""
 src: String = "public"
 config = false
 
-OptionParser.parse! do |parser|
+OptionParser.parse do |parser|
   parser.banner = "Usage kiku [arguments]"
   parser.on("-c", "--config", "Read from the config file") { config = true }
   parser.on("-i INSTANCE", "--instance=INSTANCE", "Specifies the instance url") { |instance| url = instance  }
